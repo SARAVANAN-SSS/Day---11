@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+h1 {
+    font-size :20px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    width: 370px;
+    height: 25px;
+    margin: 5px 0px 5px 4px;
+}
+
+#s {
+    font-size: 14px;
+}
+
+ul {
+    list-style-type: none;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.third {
+    font-size: 14px;
+    font-weight: bolder;
+    padding: 0px 10px;
+    margin-bottom: 5px;
+
+
+}
+.fourth {
+    font-size: 14px;
+    padding: 0px 10px;
+
+}
+h4 {
+    font-size: 14px;
+    margin: 0px;
+    padding: 0px;
+}
+ul {
+    font-size: 14px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.box {
+    border-radius: 2px;
+    background-color: white;
+    width: 380px;
+    height: 255px;
+    border: 2px solid red;
+
+}
+
+.main {
+    width: 400px;
+    height: 250px;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+label {
+    font-size: 12px;
+}
+
+
+.add > input {
+    width: 340px;
+    border:none;
+    border-bottom: 2px solid black;
+}
+
+/* newly Add */
+
+.first {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    padding: 0px 10px;
+    margin: 0px;
+}
+.l1 {
+    text-align: center;
+    width: 160px;
+    border:none;
+    border-bottom: 2px solid black;
+}
+.add {
+    padding: 0px 10px;
+    margin: 0px;
+}
+
+.second {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    padding: 0px 10px;
+    margin: 0px;
+}
+.l2 {
+    text-align: center;
+}
+
+.l3 {
+    width:80px;
+    border:none;
+    border-bottom: 2px solid black;
+    text-align: center;
+    
+}
+
+.cb {
+    background: white ;
+    border: none;
+}
+    </style>
+</head>
+<body>
+    <div class="main">
+      <div class="box">
+        <h1>Yes! I want to subscribe to <i>Mag-O-Zine</i></h1>
+        <div class="first">
+            <div>
+            <input class="l1" type="text" value="Joe"><br>
+            <label for="">First Name</label>
+            </div>
+            <div>
+            <input class="l1" type="text" value="schmegeggaie"><br>
+            <label for="">Last Name</label>
+            </div>
+        </div>
+        <div class="add">
+            <input class="l2" type="text" value="1001 washington street"><br>
+            <label for="">Address</label>
+        </div>
+        <div class="second">
+            <div>
+            <input class="l3" type="text" value="Anytown"><br>
+            <label for="">City</label>
+            </div>
+            <div>
+            <input class="l3" type="text" value="CA"><br>
+            <label for="">State</label>
+            </div>
+            <div>
+            <input class="l3" type="text" value="9999"><br>
+            <label for="">Zip</label>
+            </div>
+        </div>
+        <div class="third">
+            <label id="s" for="">Subscribe for: </label>
+            <input class="cb" type="checkbox" width="1px" checked><span>1 year ($19.95)</span><input type="checkbox" width="1px"><span>2 year ($35.00)</span>
+        </div>    
+        <div class="fourth">
+            <h4>Send me more information about:</h4>
+            <ul>
+              <li><input width="1px" type="checkbox" checked> Computer-Zine</li>
+              <li><input width="1px" type="checkbox"> Fishing-Zine</li>
+              <li><input width="1px" type="checkbox" checked> Cat-O-Zine</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
+
